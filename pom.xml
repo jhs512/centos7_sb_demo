@@ -104,7 +104,7 @@
 			<artifactId>spring-session-data-redis</artifactId>
 			<version>2.3.0.RELEASE</version>
 		</dependency>
-		
+
 	</dependencies>
 
 	<build>
@@ -115,10 +115,8 @@
 				<version>2.2</version>
 				<configuration>
 					<url>http://blog.n29.st.iu.gy:8080/manager/text</url>
-					<server>TomcatServer</server>
+					<server>blog_n29_st_iu_gy__manager_text</server>
 					<path>/</path>
-					<username>deployer</username>
-					<password>sbs123414</password>
 				</configuration>
 			</plugin>
 			<plugin>
